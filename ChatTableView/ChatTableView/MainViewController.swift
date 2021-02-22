@@ -1,20 +1,21 @@
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
 
-    @IBOutlet weak var mainTable: UITableView!
+    @IBOutlet weak var mainTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let nib = UINib(nibName: "RegularCell", bundle: nil)
-        mainTable.register(nib, forCellReuseIdentifier: "RegularCell")
-        mainTable.dataSource = self
-        mainTable.delegate = self
+        mainTableView.register(nib, forCellReuseIdentifier: "RegularCell")
+        mainTableView.dataSource = self
+        mainTableView.delegate = self
+        
     }
 }
 
-extension ViewController: UITableViewDataSource {
+extension MainViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
     }
@@ -25,7 +26,7 @@ extension ViewController: UITableViewDataSource {
     }
 }
 
-extension ViewController: UITableViewDelegate {
+extension MainViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 220
     }
