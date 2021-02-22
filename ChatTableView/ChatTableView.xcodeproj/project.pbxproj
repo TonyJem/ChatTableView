@@ -13,6 +13,7 @@
 		3ADD69AB25E41DBB0018344C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ADD69A925E41DBB0018344C /* Main.storyboard */; };
 		3ADD69AD25E41DBD0018344C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ADD69AC25E41DBD0018344C /* Assets.xcassets */; };
 		3ADD69B025E41DBD0018344C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ADD69AE25E41DBD0018344C /* LaunchScreen.storyboard */; };
+		3ADD69B925E4201C0018344C /* cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ADD69B825E4201C0018344C /* cell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3ADD69AC25E41DBD0018344C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3ADD69AF25E41DBD0018344C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3ADD69B125E41DBD0018344C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ADD69B825E4201C0018344C /* cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = cell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				3ADD69A525E41DBB0018344C /* SceneDelegate.swift */,
 				3ADD69A725E41DBB0018344C /* ViewController.swift */,
 				3ADD69A925E41DBB0018344C /* Main.storyboard */,
+				3ADD69B825E4201C0018344C /* cell.xib */,
 				3ADD69AC25E41DBD0018344C /* Assets.xcassets */,
 				3ADD69AE25E41DBD0018344C /* LaunchScreen.storyboard */,
 				3ADD69B125E41DBD0018344C /* Info.plist */,
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ADD69B025E41DBD0018344C /* LaunchScreen.storyboard in Resources */,
+				3ADD69B925E4201C0018344C /* cell.xib in Resources */,
 				3ADD69AD25E41DBD0018344C /* Assets.xcassets in Resources */,
 				3ADD69AB25E41DBB0018344C /* Main.storyboard in Resources */,
 			);
