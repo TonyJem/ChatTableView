@@ -1,6 +1,6 @@
 import UIKit
 
-class regularCell: UITableViewCell {
+class RegularCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
